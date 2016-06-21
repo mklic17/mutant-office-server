@@ -1,0 +1,11 @@
+{
+  "name": "mutant-hour-server",
+  "version": "0.1.0",
+  "description": "a node serve for connecting to firebase and sending texts and emails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitchell Klich",
+  "license": "ISC"
+}
