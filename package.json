@@ -4,8 +4,14 @@
   "description": "a node serve for connecting to firebase and sending texts and emails",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Mitchell Klich",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "firebase": "^3.0.5",
+    "twilio": "^2.9.1"
+  }
 }
